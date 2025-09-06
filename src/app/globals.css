@@ -24,3 +24,38 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+:root {
+  --text-primary: "#1ba672";
+
+  --border-color: rgba(2, 6, 12, 0.15);
+  --box-shadow: rgba(40, 44, 63, 0.08) 0px 3px 8px;
+}
+
+.border-gray {
+  border: 1px solid var(--border-color)
+  
+}
+
+.box-shadow {
+  box-shadow: var(--box-shadow);
+}
+
+.text-primary {
+  color: var(--text-primary);
+}
+
+.veg-color {
+  color: green;
+}
+.veg-bg-color {
+  background-color: green;
+}
+
+.non-veg-color {
+  color: red;
+}
+
+.non-veg-bg-color {
+  background-color: red;
+}

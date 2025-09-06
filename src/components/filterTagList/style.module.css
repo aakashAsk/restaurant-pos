@@ -1,0 +1,9 @@
+.filtertaglist {
+ overflow: auto;
+ -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  
+}
+
+.filtertaglist::-webkit-scrollbar {
+  display: none; /* Chrome, Safari */
+}
